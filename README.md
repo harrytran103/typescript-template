@@ -1,1 +1,3 @@
-# service-template
+# typescript-template
+
+🌱 TypeScript template
