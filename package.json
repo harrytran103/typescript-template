@@ -21,7 +21,9 @@
     }
   },
   "dependencies": {
-    "giin": "^0.1.3"
+    "diana-js": "^0.6.0",
+    "hera-js": "^0.2.0",
+    "juno-js": "^0.0.2"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
