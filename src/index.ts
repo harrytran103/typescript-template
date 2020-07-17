@@ -1,1 +1,3 @@
-console.log('Chao Xìn 🇻🇳');
+import { logger } from 'juno-js';
+
+logger().info('Chao Xìn 🇻🇳');
