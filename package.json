@@ -2,7 +2,7 @@
   "name": "typescript-template",
   "version": "1.0.0",
   "main": "src/index.ts",
-  "repository": "https://github.com/103cuong/hera.git",
+  "repository": "https://github.com/103cuong/typescript-template.git",
   "author": "Cuong Tran",
   "scripts": {
     "start:dev": "nodemon --ignore build/ --exec ts-node src/index.ts",
