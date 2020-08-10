@@ -1,3 +1,3 @@
 import { logger } from 'juno-js';
 
-logger().info('Chao Xìn 🇻🇳');
+logger.info('Chao Xìn 🇻🇳');

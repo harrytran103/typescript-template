@@ -2,6 +2,8 @@
   "name": "typescript-template",
   "version": "1.0.0",
   "main": "src/index.ts",
+  "repository": "https://github.com/103cuong/hera.git",
+  "author": "Cuong Tran",
   "scripts": {
     "start:dev": "nodemon --ignore build/ --exec ts-node src/index.ts",
     "build": "rm -rf build && tsc",
@@ -21,9 +23,9 @@
     }
   },
   "dependencies": {
-    "diana-js": "^0.6.0",
-    "hera-js": "^0.2.0",
-    "juno-js": "^0.0.2"
+    "diana-js": "^0.7.0",
+    "hera-js": "^0.4.0",
+    "juno-js": "^0.1.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",

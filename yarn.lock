@@ -1044,10 +1044,10 @@ define-property@^2.0.2:
     is-descriptor "^1.0.2"
     isobject "^3.0.1"
 
-diana-js@^0.6.0:
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/diana-js/-/diana-js-0.6.0.tgz#414df1dcf9ceb3414a35603c571152bda7f515d2"
-  integrity sha512-ybZzHUBt8KVIXOAkyDTi59uEg2G09jZkxXQxPJZAAvQfW/jAVxow0cyFh3ddxXk4+lzMzf1C8Z8cnrYSOu3pEQ==
+diana-js@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/diana-js/-/diana-js-0.7.0.tgz#fe98d634bc41667a2bc2a70df397a3e14c39c762"
+  integrity sha512-o9KJWZOdyKSW3xnLzM2wab9F90EvxPESTjS5gEI1i2okdNpfbHOR+dzV1sqi1nVyZ2POiquX1SkwIi9v64qRjg==
 
 diff@^4.0.1:
   version "4.0.2"
@@ -1580,13 +1580,6 @@ get-value@^2.0.3, get-value@^2.0.6:
   resolved "https://registry.yarnpkg.com/get-value/-/get-value-2.0.6.tgz#dc15ca1c672387ca76bd37ac0a395ba2042a2c28"
   integrity sha1-3BXKHGcjh8p2vTesCjlbogQqLCg=
 
-giin@^0.1.3:
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/giin/-/giin-0.1.3.tgz#c1d73f10bfaff6aecff6dc2802887034e33bb599"
-  integrity sha512-SWLa7c8fUETHr+aBQu1v+CflWwQyT3yikBjZV127gbWQKZJsYhs/9Ut1fSr57oaSENBaASCi3iT7MddwXG+S9w==
-  dependencies:
-    axios "^0.19.0"
-
 git-raw-commits@^2.0.0:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/git-raw-commits/-/git-raw-commits-2.0.3.tgz#f040e67b8445962d4d168903a9e84c4240c17655"
@@ -1721,10 +1714,10 @@ has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
-hera-js@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/hera-js/-/hera-js-0.2.0.tgz#d7a9c33c53efa116c5a34712ff70235c8705d769"
-  integrity sha512-ZxTLCs1ZfOsNmuxTAGAQeJuzCnUvLAic7nF7sUSB8NUcai6lhw7p0Br7BP+U62cKkIJVenvcY6iwQThOCNgEgQ==
+hera-js@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/hera-js/-/hera-js-0.4.0.tgz#e91f6f99dfd2e239e4ca8b6b32f00f508566f057"
+  integrity sha512-exIjTAhq5uVxyEVzzBt6zPF+tPq0U5U5GuwjCTobAQbi0qzq3xi62wwYCJnky2BM/K1Qaquo3JTv6r9/E1L1Gw==
   dependencies:
     axios "^0.19.0"
 
@@ -2149,14 +2142,12 @@ jsonparse@^1.2.0:
   resolved "https://registry.yarnpkg.com/jsonparse/-/jsonparse-1.3.1.tgz#3f4dae4a91fac315f71062f8521cc239f1366280"
   integrity sha1-P02uSpH6wxX3EGL4UhzCOfE2YoA=
 
-juno-js@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/juno-js/-/juno-js-0.0.2.tgz#a4063e6958932cef7c32a6f8dbf8889eaacf0f90"
-  integrity sha512-uPMLrP3H719582DpseqaACosa2as63jfILxn3igtZ36VFtvqamn3dZ0izPkBxmxT8pRqsJhlny8FohoKnMkntQ==
+juno-js@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/juno-js/-/juno-js-0.1.1.tgz#c5baeacd4de9d2a099575840e1cfc46e1623b68f"
+  integrity sha512-Pz5SdwpSEge7CT/y1smRikZfWRqidk9oseNiUjBVd9gJhnfbKu2skPPszVL2gOjcUfnu2ii4oqJ/aElKqbhHxg==
   dependencies:
-    giin "^0.1.3"
     lodash "^4.17.19"
-    thinid "^0.5.1"
     winston "^3.3.3"
 
 kind-of@^3.0.2, kind-of@^3.0.3, kind-of@^3.2.0:
@@ -3680,11 +3671,6 @@ text-table@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
   integrity sha1-f17oI66AUgfACvLfSoTsP8+lcLQ=
-
-thinid@^0.5.1:
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/thinid/-/thinid-0.5.1.tgz#c1e828b1f7f3301c8ee95ed0d3ca0fbc388e3014"
-  integrity sha512-1o4s1JbX/lS23IdzC775NDqGatNh25NCCgjgEVeCLq+c6KbFztwQoTfkCsTMDU52dwnwL7D5xLCwPhNAK8N9qA==
 
 through2@^2.0.2:
   version "2.0.5"
