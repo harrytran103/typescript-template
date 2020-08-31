@@ -15,10 +15,10 @@ const main = async () => {
       }
     `,
     variables: {
-      id: 1
-    }
+      id: 1,
+    },
   });
   logger.info(data);
-}
+};
 
 main();
