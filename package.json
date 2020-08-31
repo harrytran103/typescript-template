@@ -2,6 +2,7 @@
   "name": "typescript-template",
   "version": "1.0.0",
   "main": "src/index.ts",
+  "description": "🐢 TypeScript template",
   "repository": "https://github.com/103cuong/typescript-template.git",
   "author": "Cuong Tran",
   "scripts": {
