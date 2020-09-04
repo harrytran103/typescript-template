@@ -7,7 +7,8 @@
   "author": "Cuong Tran",
   "scripts": {
     "start:dev": "nodemon --ignore build/ --exec ts-node src/index.ts",
-    "build": "rm -rf build && tsc",
+    "prebuild": "rm -rf build",
+    "build": "tsc",
     "start": "node ./build/index.js",
     "lint": "eslint src/**/*.ts",
     "lint:fix": "eslint --fix src/**/*.ts"

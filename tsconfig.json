@@ -12,7 +12,7 @@
       "ES2020",
       "ESNext"
     ],
-    "declaration": true,
+    "declaration": false,
     "outDir": "./build",
     "strict": true,
     "esModuleInterop": true,
