@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "src/index.ts",
   "description": "🐢 TypeScript template",
-  "repository": "https://github.com/103cuong/typescript-template.git",
-  "author": "Cuong Tran",
+  "repository": "https://github.com/kimcuong060498/typescript-template.git",
+  "author": "kim cuong",
   "scripts": {
     "start:dev": "nodemon --ignore build/ --exec ts-node src/index.ts",
     "prebuild": "rm -rf build",
